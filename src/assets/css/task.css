@@ -1,0 +1,21 @@
+.header{
+    background-color: rgb(106, 212, 94);
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin: 0;
+    position: sticky;
+    padding: 0;
+    color: black;
+    border: 5px solid white;
+}
+
+.footer{
+    background-color: gray;
+    height: 150px;
+    width: auto;
+    text-align: center;
+    align-items: center;
+}

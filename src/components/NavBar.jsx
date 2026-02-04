@@ -42,6 +42,11 @@ export const NavBar = () => {
         TV
         </Link>
         </li>
+        <li class="nav-item active">
+        <Link class="nav-link" to="/team">
+        Team
+        </Link>
+        </li>
         </ul>
     
     </div>

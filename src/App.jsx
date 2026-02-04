@@ -8,6 +8,10 @@ import { NetflixSports } from './components/NetflixSports';
 import { NetflixSpark } from './components/NetflixSpark';
 import { NetflixTv } from './components/NetflixTv';
 import { NavBar } from './components/navbar';
+import { Watch } from './components/Watch';
+import { ErrorNotFound } from './components/ErrorNotFound';
+import { TeamDetails } from './components/TeamDetails';
+import { Teams } from './components/Teams';
 //import reactLogo from './assets/react.svg'
 //import viteLogo from '/vite.svg'
 //import './App.css'
@@ -38,6 +42,10 @@ function App() {
           <Route path='/netflixsports' element={<NetflixSports/>} ></Route>
           <Route path='/netflixspark' element={<NetflixSpark/>}></Route>
           <Route path='/netflixtv' element={<NetflixTv/>}></Route>
+          <Route path='/watch/:name' element={<Watch/>}></Route>
+          <Route path='/team' element={<Teams/>}></Route>
+          <Route path='/teamdetails/:name' element={<TeamDetails/>}></Route>
+          <Route path='/*' element={<ErrorNotFound/>} ></Route>
           <Route path='/' element={<HomeModule/>} ></Route>
         </Routes>
         

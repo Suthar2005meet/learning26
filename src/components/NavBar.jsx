@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 
 export const NavBar = () => {
@@ -45,6 +44,26 @@ export const NavBar = () => {
         <li class="nav-item active">
         <Link class="nav-link" to="/team">
         Team
+        </Link>
+        </li>
+        <li class="nav-item active">
+        <Link class="nav-link" to="/function">
+        Function Demo
+        </Link>
+        </li>
+        <li class="nav-item active">
+        <Link class="nav-link" to="/usestatedemo1">
+        UseState Demo 1
+        </Link>
+        </li>
+        <li class="nav-item active">
+        <Link class="nav-link" to="/usestatedemo2">
+        UseState Demo 2
+        </Link>
+        </li>
+        <li class="nav-item active">
+        <Link class="nav-link" to="/usestatedemo3">
+        UseState Demo 3
         </Link>
         </li>
         </ul>

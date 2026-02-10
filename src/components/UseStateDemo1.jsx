@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import { CardComponent } from './CardComponent';
+import { MapDemo10 } from './MapDemo10';
 
 export const UseStateDemo1 = () => {
 
@@ -12,6 +14,8 @@ export const UseStateDemo1 = () => {
         <h1>USE STATE DEMO 1</h1>
         <h1>count = {count}</h1>
         <button onClick={increasecount}> + </button>
+        <CardComponent title="USE STATE DEMO"></CardComponent>
+        <MapDemo10 heading="languages"></MapDemo10>
     </div>
   )
 }

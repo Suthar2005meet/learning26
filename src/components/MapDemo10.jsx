@@ -1,5 +1,5 @@
 
-export const MapDemo10 = () => {
+export const MapDemo10 = (props) => {
     const programmingLanguages = [
     {
         id: 1,
@@ -67,7 +67,7 @@ export const MapDemo10 = () => {
 
     return (
         <div>
-        <h2>Programming Languages Table</h2>
+        <h2>{props.heading || "Programming Languages Table"}</h2>
 
         <table className="table">
         <thead>

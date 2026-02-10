@@ -4,14 +4,14 @@ export const NavBar = () => {
     return (
     <div>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
+        {/* <li class="nav-item active">
         <Link class="nav-link" to="/netflixhome">
         Home 
         </Link>
@@ -45,7 +45,7 @@ export const NavBar = () => {
         <Link class="nav-link" to="/team">
         Team
         </Link>
-        </li>
+        </li>*/}
         <li class="nav-item active">
         <Link class="nav-link" to="/function">
         Function Demo
@@ -56,7 +56,7 @@ export const NavBar = () => {
         UseState Demo 1
         </Link>
         </li>
-        <li class="nav-item active">
+        {/*<li class="nav-item active">
         <Link class="nav-link" to="/usestatedemo2">
         UseState Demo 2
         </Link>
@@ -64,6 +64,21 @@ export const NavBar = () => {
         <li class="nav-item active">
         <Link class="nav-link" to="/usestatedemo3">
         UseState Demo 3
+        </Link>
+        </li> */}
+        <li class="nav-item active">
+        <Link class="nav-link" to="/employees">
+        Employe
+        </Link>
+        </li>
+        <li class="nav-item active">
+        <Link class="nav-link" to="/change">
+        Input
+        </Link>
+        </li>
+        <li class="nav-item active">
+        <Link class="nav-link" to="/student">
+        Student
         </Link>
         </li>
         </ul>

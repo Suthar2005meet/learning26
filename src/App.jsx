@@ -7,7 +7,6 @@ import { NetflixMovies } from './components/NetflixMovies';
 import { NetflixSports } from './components/NetflixSports';
 import { NetflixSpark } from './components/NetflixSpark';
 import { NetflixTv } from './components/NetflixTv';
-import { NavBar } from './components/navbar';
 import { Watch } from './components/Watch';
 import { ErrorNotFound } from './components/ErrorNotFound';
 import { TeamDetails } from './components/TeamDetails';
@@ -16,6 +15,10 @@ import { FunctionDemo1 } from './components/FunctionDemo1';
 import { UseStateDemo1 } from './components/UseStateDemo1';
 import { UseStateDemo2 } from './components/UseStateDemo2';
 import { UseStateDemo3 } from './components/UseStateDemo3';
+import { NavBar } from './components/NavBar';
+import { Employees } from './components/Employees';
+import { ChangeComponent } from './components/ChangeComponent';
+import { Students } from './components/students';
 //import reactLogo from './assets/react.svg'
 //import viteLogo from '/vite.svg'
 //import './App.css'
@@ -55,6 +58,9 @@ function App() {
           <Route path='/usestatedemo1' element={<UseStateDemo1/>}></Route>
           <Route path='/usestatedemo2' element={<UseStateDemo2/>}></Route>
           <Route path='/usestatedemo3' element={<UseStateDemo3/>}></Route>
+          <Route path='/employees' element={<Employees/>}></Route>
+          <Route path='/change' element={<ChangeComponent/>}></Route>
+          <Route path='/student' element={<Students/>}></Route>
         </Routes>
         
     </div>

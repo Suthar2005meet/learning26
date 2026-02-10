@@ -14,7 +14,7 @@ export const UseStateDemo3 = () => {
                 return <li>{u}</li>
             })
         }
-        <button onClick={adduser}>ADD</button>
+        <button onClick={adduser1}>ADD</button>
     </div>
   )
 }

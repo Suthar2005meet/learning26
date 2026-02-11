@@ -19,6 +19,10 @@ import { NavBar } from './components/NavBar';
 import { Employees } from './components/Employees';
 import { ChangeComponent } from './components/ChangeComponent';
 import { Students } from './components/students';
+import { FormDemo1 } from './components/form/FormDemo1';
+import { FormDemo2 } from './components/form/FormDemo2';
+import { FormDemo3 } from './components/form/FormDemo3';
+import { FormDemo4 } from './components/form/FormDemo4';
 //import reactLogo from './assets/react.svg'
 //import viteLogo from '/vite.svg'
 //import './App.css'
@@ -61,6 +65,10 @@ function App() {
           <Route path='/employees' element={<Employees/>}></Route>
           <Route path='/change' element={<ChangeComponent/>}></Route>
           <Route path='/student' element={<Students/>}></Route>
+          <Route path='/formdemo2' element={<FormDemo2/>}></Route>
+          <Route path='/formdemo3' element={<FormDemo3/>}></Route>
+          <Route path='/formdemo4' element={<FormDemo4/>}></Route>
+          <Route path='/formdemo1' element={<FormDemo1/>}></Route>
         </Routes>
         
     </div>

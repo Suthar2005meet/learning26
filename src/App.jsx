@@ -7,7 +7,7 @@ import { NetflixMovies } from './components/NetflixMovies';
 import { NetflixSports } from './components/NetflixSports';
 import { NetflixSpark } from './components/NetflixSpark';
 import { NetflixTv } from './components/NetflixTv';
-import { Watch } from './components/Watch';
+import { Watch } from './components/WatchTask';
 import { ErrorNotFound } from './components/ErrorNotFound';
 import { TeamDetails } from './components/TeamDetails';
 import { Teams } from './components/Teams';
@@ -26,6 +26,10 @@ import { FormDemo4 } from './components/form/FormDemo4';
 import { FormDemo5 } from './components/form/FormDemo5';
 import { FormDemo6 } from './components/form/FormDemo6';
 import { FormDemo7 } from './components/form/FormDemo7';
+import { FormDemo8 } from './components/form/FormDemo8';
+import { FormDemo9 } from './components/form/FormDemo9';
+import { FormDemo10 } from './components/form/FormDemo10';
+import { FormWatch } from './components/form/FormWatch';
 //import reactLogo from './assets/react.svg'
 //import viteLogo from '/vite.svg'
 //import './App.css'
@@ -75,6 +79,10 @@ function App() {
           <Route path='/formdemo5' element={<FormDemo5/>}></Route>
           <Route path='/formdemo6' element={<FormDemo6/>}></Route>
           <Route path='/formdemo7' element={<FormDemo7/>}></Route>
+          <Route path='/formdemo8' element={<FormDemo8/>}></Route>
+          <Route path='/formdemo9' element={<FormDemo9/>}></Route>
+          <Route path='/formdemo10' element={<FormDemo10/>}></Route>
+          <Route path='/formwatch' element={<FormWatch/>}></Route>
         </Routes>
         
     </div>

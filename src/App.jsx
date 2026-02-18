@@ -33,6 +33,11 @@ import { FormWatch } from './components/form/FormWatch';
 import { ApiDemo1 } from './components/api/ApiDemo1';
 import { ApiDemo2 } from './components/api/apiDemo2';
 import { ApiDemo3 } from './components/api/apiDemo3';
+import { ApiDeom4 } from './components/api/ApiDeom4';
+import { ApiDeom5 } from './components/api/ApiDemo5';
+import { OmdbMovies } from './components/api/OmdbMovie';
+import { MovieDetail } from './components/api/MovieDetail';
+
 //import reactLogo from './assets/react.svg'
 //import viteLogo from '/vite.svg'
 //import './App.css'
@@ -89,6 +94,10 @@ function App() {
           <Route path='/apidemo1' element={<ApiDemo1/>}></Route>
           <Route path='/apidemo2' element={<ApiDemo2/>}></Route>
           <Route path='/apidemo3' element={<ApiDemo3/>}></Route>
+          <Route path='/apidemo4' element={<ApiDeom4/>}></Route>
+          <Route path='/apidemo5' element={<ApiDeom5/>}></Route>
+          <Route path='/omdbmovie' element={<OmdbMovies/>}></Route>
+          <Route path='/movie/:id' element={<MovieDetail/>}></Route>
         </Routes>
         
     </div>

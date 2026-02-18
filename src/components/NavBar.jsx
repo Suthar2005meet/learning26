@@ -151,6 +151,21 @@ export const NavBar = () => {
         API DEMO3
         </Link>
         </li>
+        <li class="nav=item active">
+        <Link class='nav-link' to="/apidemo4">
+        API DEMO4
+        </Link>
+        </li>
+        <li class="nav=item active">
+        <Link class='nav-link' to="/apidemo5">
+        API DEMO5
+        </Link>
+        </li>
+        <li class="nav=item active">
+        <Link class='nav-link' to="/omdbmovie">
+        OMDB Web
+        </Link>
+        </li>
         </ul>
     
     </div>
